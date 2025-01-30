@@ -4,6 +4,6 @@ public class StrategieZIP implements IStrategie {
     
     @Override
     public void execute(File file){
-        System.out.println("Compressé avec ZIP : "+file.getName());
+        System.out.println("Compressé avec ZIP : "+file.getName() + ".zip");
     }
 }
