@@ -1,6 +1,6 @@
 import java.io.File;
 
-public class StrategieZIP implements IStrategie{
+public class StrategieZIP implements IStrategie {
     
     @Override
     public void execute(File file){
